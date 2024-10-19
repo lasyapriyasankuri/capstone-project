@@ -1,3 +1,17 @@
 npm install @fortawesome/fontawesome-free
 
   "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Job Portal</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/jobs">Job Listings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/profile">Profile</a>
+      </li>
+    </ul>
+  </div>
+</nav>
